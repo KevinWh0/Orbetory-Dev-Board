@@ -1,4 +1,6 @@
-
+<!DOCTYPE html>
+<html>
+<head>
 <style>
   ul {
   list-style-type: none;
@@ -42,6 +44,30 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-
+  
+  
+body {background-color: lightgrey;}
+p    {color: grey;}
 </style>
+  
+</head>
+<body>
+  
+<ul>
+  <li><a href="https://kevinwh0.github.io/Orbetory-Dev-Board/Home.html">Home</a></li>
+  <li><a href="#">Download</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Bug Report</a>
+      <a href="#">Planning</a>
+      <a href="#">Pics</a>
+    </div>
+  </li>
+</ul>
+
+<h1 class="MainTitle">Orbetory Dev Board</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
