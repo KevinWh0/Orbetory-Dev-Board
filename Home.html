@@ -16,11 +16,9 @@
   overflow: hidden;
   background-color: #333;
 }
-
 li {
   float: left;
 }
-
 li a, .dropbtn {
   display: inline-block;
   color: white;
@@ -28,15 +26,12 @@ li a, .dropbtn {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
-
 li.dropdown {
   display: inline-block;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -45,7 +40,6 @@ li.dropdown {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -53,9 +47,7 @@ li.dropdown {
   display: block;
   text-align: left;
 }
-
 .dropdown-content a:hover {background-color: #f1f1f1}
-
   
   
 .dropdown:hover .dropdown-content {
@@ -67,17 +59,13 @@ body {background-color: lightgrey; }
 p    {color: grey;}
   
   body  {
-    height: 2000px;
+    height: 1000px;
     background-image: url("https://raw.githubusercontent.com/KevinWh0/Orbetory-Dev-Board/master/Poster.png");
   background-color: #cccccc;
-    height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-
-
 </style>
   
 </head>
@@ -103,14 +91,11 @@ p    {color: grey;}
   <p id="demo"></p>
 <script>
   var i = 0;
-var txt = 'Lorem ipsum dummy text blabla.';
+var txt = 'Were working on a nwe version';
 var speed = 50;
 // Find scroll percentage on scroll (using cross-browser properties), and offset dash same amount as percentage scrolled
 window.addEventListener("scroll", myFunction);
-
 function myFunction() {
-
-
   if(document.documentElement.scrollHeight>1){
 	if (i < txt.length) {
       document.getElementById("demo").innerHTML += txt.charAt(i);
@@ -118,7 +103,6 @@ function myFunction() {
       setTimeout(typeWriter, speed);
     }
   }
-
 }
 </script>
 
